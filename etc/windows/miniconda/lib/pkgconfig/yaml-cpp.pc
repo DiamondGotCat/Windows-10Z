@@ -1,0 +1,11 @@
+prefix=/home/diamondgotcat/windows-10z/includes.chroot/etc/windows/miniconda
+exec_prefix=${prefix}
+includedir=/home/diamondgotcat/windows-10z/includes.chroot/etc/windows/miniconda/include
+libdir=/home/diamondgotcat/windows-10z/includes.chroot/etc/windows/miniconda/lib
+
+Name: Yaml-cpp
+Description: A YAML parser and emitter for C++
+Version: 0.8.0
+Requires:
+Libs: -L${libdir} -lyaml-cpp
+Cflags: -I${includedir}

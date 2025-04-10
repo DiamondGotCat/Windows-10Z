@@ -1,0 +1,5 @@
+#!/home/diamondgotcat/windows-10z/includes.chroot/etc/windows/miniconda/bin/python3.12
+import sys
+from lib2to3.main import main
+
+sys.exit(main("lib2to3.fixes"))
